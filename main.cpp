@@ -111,19 +111,19 @@ ball.stop()
 //  5) 
 //  Noun:game
 //  action 1:game starts
-game.start()
+game.start();
 //  action 2:game pauses playback
-game.pauses()
+game.pauses();
 //  action 3:game finishes
-game.finish()
+game.finish();
 //  6) 
 //  Noun:bear   
 //  action 1:bear attacks
-bear.attack()
+bear.attack();
 //  action 2:bear eats honey
-bear.eatHoney()
+bear.eatHoney();
 //  action 3:bear rubs its tummy
-bear.rubTummy() 
+bear.rubTummy(); 
 //  7) 
 //  Noun:lawnmower   
 //  action 1:rotates blade
@@ -131,31 +131,31 @@ lawnmower.rotateBlade();
 //  action 2:stops blade rotation
 lawnmower.stopBladeRotation();
 //  action 3:sets lawnmower in gear so it will move
-lawnmower.engageDrivetrain()
+lawnmower.engageDrivetrain();
 //  8) 
 //  Noun:instrument -   
 //  action 1:instrument tunes itself
-instrument.tuneSelf()
+instrument.tuneSelf();
 //  action 2:instrument plays note
-instrument.playNote()
+instrument.playNote();
 //  action 3:instrument releases note
-instrument.releaseNote() 
+instrument.releaseNote();
 //  9) 
 //  Noun:phone   
 //  action 1:
-phone.connectCall()
+phone.connectCall();
 //  action 2:
-phone.updateOS()
+phone.updateOS();
 //  action 3:
-phone.applySettings() 
+phone.applySettings(); 
 //  10) 
 //  Noun:camera  
 //  action 1:camera processes image received
-camera.processImage()
+camera.processImage();
 //  action 2:camera adjusts autofocus
-camera.adjustAutoFocus()
+camera.adjustAutoFocus();
 //  action 3:camera stores image in memory
-camera.storeImageInMemory()
+camera.storeImageInMemory();
 
 
 #endif
